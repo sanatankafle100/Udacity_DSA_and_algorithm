@@ -2,4 +2,13 @@ Task0:
 Time complexity O(1) as the runtime of algorithm doesn't depend upon the input size.
 
 Task1:
-Time complexity O(n) as 
+Time complexity O(n) as it is has 3 loops dependent on input, which gives O(n) + O(n) + O(n). This gives O(3n) which is O(n) because coefficient in big O are neglected.  
+
+Task2:
+Time complexity O(n^2) as it has a nested for loop which gives a complexity of O(n^2) and a for loop with O(n) complexity. When combined it gives O(n^2+n) which results to O(n^2)
+
+Task3:
+Time complexity O(nlog(n)) as it has sorted function with time complexity of O(n(logn)) with 6 for loops which gives O(6n) complexity. When combined the complexity becomes(n(logn) + 6n). 6n is neglected as they are less dominant term. So the complexity becomes O(nlog(n))
+
+Task4:
+Time complexity O(nlog(n)) as it has sorted function with time complexity of O(n(logn)) with 4 for loops which gives O(4n) complexity. When combined the complexity becomes(n(logn) + 4n). 4n is neglected as they are less dominant term. So the complexity becomes O(nlog(n))
